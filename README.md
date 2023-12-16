@@ -1,6 +1,6 @@
 # Snake game using Reactjs.
 
-- Use the keys UP, DOWN, RIGHT, and LEFT to make the snake grow longer.
+- Use the (keys/Buttons) UP, DOWN, RIGHT, and LEFT to make the snake grow longer.
 - You can't stop the snake or make it go backwards.
 - The game ends when the snake into itself.
 - The goal is to make the snake as large as possible before that happens.

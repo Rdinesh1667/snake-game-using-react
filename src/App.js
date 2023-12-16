@@ -18,7 +18,7 @@ const App = () => {
   const [direction, setDirection] = useState(INITIAL_DIRECTION);
   const [food, setFood] = useState(generateFood());
   const [gameOver, setGameOver] = useState(false);
-  const [isPass, setIsPass] = useState(false);
+  const [isPause, setIsPause] = useState(false);
   const [score, setScore] = useState(0);
 
   const checkCollision = (snake) => {
@@ -42,7 +42,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    if (!gameOver && !isPass) {
+    if (!gameOver && !isPause) {
       const moveSnake = () => {
         const newSnake = snake.map((segment) => ({ ...segment }));
 
@@ -87,7 +87,7 @@ const App = () => {
         clearInterval(gameInterval);
       };
     }
-  }, [snake, direction, food, gameOver, isPass, score]);
+  }, [snake, direction, food, gameOver, isPause, score]);
 
   useEffect(() => {
     const handleKeyPress = (e) => {
@@ -136,8 +136,14 @@ const App = () => {
         </div>
       )}
       <div className='control'>
-        <button onClick={() => { setIsPass(!isPass) }}> {isPass ? 'Resume' : 'Pass'}</button>
+        <button onClick={() => { setIsPause(!isPause) }}> {isPause ? 'Resume' : 'Pause'}</button>
         <p> Score : 🚀 {score}</p>
+        <div className='button'>
+          <button className="up" onClick={() => setDirection('UP')} >↑</button><br />
+          <button className="left" onClick={() => setDirection('LEFT')} >←</button>
+          <button className="right" onClick={() => setDirection('RIGHT')}>→</button><br />
+          <button className="down" onClick={() => setDirection('DOWN')}>↓</button>
+        </div>
       </div>
     </div>
   );
