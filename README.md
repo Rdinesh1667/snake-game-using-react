@@ -9,8 +9,8 @@
 
 
 Play Game Snake Game : [Click TO Play](https://rdinesh1667.github.io/snake-game-using-react) <br>
-Tic Tac Toe Online   : [Click To Play](https://tic-tac-toe-online-2024.netlify.app/tic-tac-toe)<br>
-Timer With time laps : [Click To Play](https://tic-tac-toe-online-2024.netlify.app/timer) <br>
+Tic Tac Toe Online   : [Click To Play](https://tic-tac-toe-online-2024.netlify.app)<br> 
+Timer With time laps : [Click To Play](https://tic-tac-toe-online-2024.netlify.app) <br>
 
 # GAME Look Like<br>
 ![Weather Report](https://raw.github.com/Rdinesh1667/snake-game-using-react/master/src/images/snake-img-1.png) <br>
