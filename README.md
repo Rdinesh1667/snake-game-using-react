@@ -8,7 +8,8 @@
 - The line acts as a blockade and the player who lasted longer was the winner.
 
 
-Play Game :  [Click TO PlaY](https://rdinesh1667.github.io/snake-game-using-react) <br>
+Play Game :  [Click TO Play](https://rdinesh1667.github.io/snake-game-using-react) <br>
+--Tic Tac Toe Online [Click To Play](https://leafy-twilight-648de1.netlify.app)<br>
 
 # GAME Look Like<br>
 ![Weather Report](https://raw.github.com/Rdinesh1667/snake-game-using-react/master/src/images/snake-img-1.png) <br>
